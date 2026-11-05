@@ -199,6 +199,10 @@ The selected ANN model was evaluated on unseen 2017 data.
 
 The final test result is reported for ANN; the other models' final test results are not included in this comparison.
 
+### Actual vs Predicted Sales
+
+![Actual vs Predicted Sales](reports/figures/actual_vs_predicted_sales.png)
+
 ## 8. Dashboard Features
 
 The Streamlit application provides the following sections:
