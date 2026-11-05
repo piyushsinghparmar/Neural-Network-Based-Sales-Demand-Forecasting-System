@@ -1,0 +1,42 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Temporary Streamlit files
+.streamlit/secrets.toml
+
+# Large processed dataset
+data/processed/sales_processed.csv
+
+# Temporary Python files
+__pycache__/
+*.pyc
+
+# Kaggle competition data - do not redistribute
+data/raw/
+data/processed/sales_processed.csv
