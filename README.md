@@ -140,7 +140,7 @@ flowchart TD
     R --> V["Future Demand Forecast"]
     R --> W["Inventory Planning"]
     R --> X["Model Comparison"]
-    ```
+```
 
 ## 6. Models Implemented
 
