@@ -166,7 +166,24 @@ The Streamlit application provides the following sections:
 - **Model Comparison:** Review model evaluation results.
 - **Inventory Planning:** Support inventory-related decisions using predicted demand.
 
-## 9. Installation and Setup
+## 9. Dashboard Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](reports/screenshots/01_dashboard_overview.png)
+
+### Historical Analysis
+![Historical Analysis](reports/screenshots/02_historical_analysis.png)
+
+### Future Sales Forecast
+![Future Sales Forecast](reports/screenshots/03_future_forecast.png)
+
+### Model Comparison
+![Model Comparison](reports/screenshots/04_model_comparison.png)
+
+### Inventory Planning
+![Inventory Planning](reports/screenshots/05_inventory_planning.png)
+
+## 10. Installation and Setup
 
 ### Step 1: Clone the Repository
 
@@ -212,7 +229,7 @@ python -m streamlit run app/dashboard.py
 
 Open the local URL displayed in the terminal.
 
-## 10. Future Improvements
+## 11. Future Improvements
 
 - Experiment with Transformer-based forecasting models.
 - Improve forecasting accuracy through hyperparameter tuning.
@@ -221,13 +238,13 @@ Open the local URL displayed in the terminal.
 - Improve inventory optimisation using demand uncertainty.
 - Deploy the dashboard to a cloud platform.
 
-## 11. Conclusion
+## 12. Conclusion
 
 This project demonstrates how machine learning and deep learning can be applied to real-world sales demand forecasting.
 
 By comparing different forecasting approaches and developing an interactive dashboard, the system provides a practical way to analyse historical sales, estimate future demand, and support inventory planning.
 
-## 12. Author
+## 13. Author
 
 **Project:** Neural Network-Based Sales Demand Forecasting System
 
