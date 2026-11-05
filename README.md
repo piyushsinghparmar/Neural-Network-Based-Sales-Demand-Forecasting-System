@@ -105,6 +105,42 @@ sales-demand-forecasting/
 ├── check_environment.py
 └── README.md
 ```
+```mermaid
+flowchart TD
+    A["Kaggle Store Item Demand Dataset"] --> B["Data Understanding & Exploration"]
+    B --> C["Data Preprocessing"]
+    C --> D["Feature Engineering"]
+    D --> E["Chronological Data Split"]
+
+    E --> F["Training: 2013–2015"]
+    E --> G["Validation: 2016"]
+    E --> H["Final Testing: 2017"]
+
+    F --> I["Model Training"]
+    I --> J["ANN"]
+    I --> K["CNN"]
+    I --> L["LSTM"]
+    I --> M["CNN-LSTM"]
+    I --> N["Baseline Models"]
+
+    J --> O["Model Evaluation"]
+    K --> O
+    L --> O
+    M --> O
+    N --> O
+    G --> O
+
+    O --> P["Select Best Validation Model: ANN"]
+    P --> Q["Save Model & Preprocessing Artifacts"]
+    Q --> R["Streamlit Dashboard"]
+    H --> S["Final ANN Testing"]
+    S --> T["Final Test Results"]
+
+    R --> U["Historical Sales Analysis"]
+    R --> V["Future Demand Forecast"]
+    R --> W["Inventory Planning"]
+    R --> X["Model Comparison"]
+    ```
 
 ## 6. Models Implemented
 
