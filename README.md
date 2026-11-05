@@ -180,6 +180,13 @@ The dataset was divided chronologically to avoid using future information during
 
 **ANN achieved the best validation performance** among the evaluated models.
 
+### Validation MAE Comparison
+
+![Validation MAE Comparison](reports/figures/validation_mae_comparison.png)
+
+The ANN model achieved the lowest validation MAE of 6.2163,
+making it the best-performing model among those evaluated.
+
 ### Final Test Result
 
 The selected ANN model was evaluated on unseen 2017 data.
