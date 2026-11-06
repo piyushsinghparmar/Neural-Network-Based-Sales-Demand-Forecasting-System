@@ -201,6 +201,8 @@ The final test result is reported for ANN; the other models' final test results 
 
 ### Actual vs Predicted Sales
 
+This chart compares the actual daily sales with the ANN model's predictions across all stores and items during 2017.
+
 ![Actual vs Predicted Sales](reports/figures/actual_vs_predicted_sales.png)
 
 ## 8. Dashboard Features
